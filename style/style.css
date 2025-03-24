@@ -6,12 +6,13 @@ body  {
     "wdth" 100;
     background-color: #f9f9f9;
     color: #727272;
-    line-height: 1.64; 
-  
+    line-height: 1.64;      
+        
 }
 
 .container {  
-   padding: 0 calc(50vw - 555px);     
+   padding: 0 calc(50vw - 555px);    
+   display: grid;
 }
 
 .header {
@@ -64,13 +65,15 @@ body  {
 }
 
 .button {
-    padding: 23px 55px;
+    padding: 25px 41px;
     border: none;
     background-color: #34547A;
     color: white;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     cursor: pointer;
+    height: 65px;
+    width: 225px;
 }
 
 .button:hover, .button:focus {
